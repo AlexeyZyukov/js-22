@@ -13,6 +13,11 @@ const refs = {
   licenseCheckbox: document.querySelector('.js-license'),
   btn: document.querySelector('.js-button'),
 };
+//refs - это объект ссылок на элементы. Запись в refs эквивалентна указанной ниже:
+  // input = document.querySelector('.js-input'),
+  // nameLabel = document.querySelector('.js-button > span'),
+  // licenseCheckbox = document.querySelector('.js-license'),
+  // btn = document.querySelector('.js-button'),
 
 // refs.input.addEventListener('focus', onInputFocus);
 // refs.input.addEventListener('blur', onInputBlur);
