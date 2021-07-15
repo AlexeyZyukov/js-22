@@ -37,8 +37,10 @@ function onInputBlur() {
 
 function onInputChange(event) {
   refs.nameLabel.textContent = event.currentTarget.value;
-}
+} //при вводе в поле input данных, выводит их на кнопке в поле span
+//callback-функция "связывает" 2 элемента, приводя к изменению 2-го, при изменении 1-го
 
 function onLicenseChange(event) {
   refs.btn.disabled = !event.currentTarget.checked;
-}
+} //при отметке чек-бокса, меняет состояние кнопки из не активного в активное
+//callback-функция "связывает" 2 элемента, приводя к изменению 2-го, при изменении 1-го
